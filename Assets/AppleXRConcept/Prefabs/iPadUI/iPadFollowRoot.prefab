@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7341753642920953737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7341753642920953736}
+  - component: {fileID: 7341753642920953751}
+  m_Layer: 0
+  m_Name: iPadFollowRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7341753642920953736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7341753642920953737}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 7341753642355719478}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7341753642920953751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7341753642920953737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec670bbceb0145b4680a4e3f483ebfcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIRoot: {fileID: 7341753642355719477}
+  WhenEnabled: 0
+  FollowConfiguration: {fileID: 11400000, guid: d09a032fdbb0131478ff62686b137276, type: 2}
+  TryFillViewport: 0
+  SizeScalar: {x: 1, y: 1}
+  UIRootOffset: {x: 0, y: 350, z: 0}
+  ShowDebugVisuals: 0
+  DebugVisualSize: 1
+  DebugMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  DebugMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  DebugFrame: {fileID: 0}
+--- !u!1001 &3062755236164569925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7341753642920953736}
+    m_Modifications:
+    - target: {fileID: 347268957039316422, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: layout.Size.X.Raw
+      value: 230.35835
+      objectReference: {fileID: 0}
+    - target: {fileID: 347268957039316422, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: layout.Position.X.Raw
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 581144996814811998, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: FollowBehavior
+      value: 
+      objectReference: {fileID: 7341753642920953751}
+    - target: {fileID: 648431403224771726, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: layout.AspectRatio.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 648431403224771726, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: layout.AspectRatio.y
+      value: 0.73260075
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643662636584950678, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643662636584950678, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714765630044818330, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: layout.Size.Y.Raw
+      value: 1255.5315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413904062098600066, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_Name
+      value: iPadContainer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4181592281268481655, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_Name
+      value: iPadContent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210724451839372883, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -723.3594
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300530, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_Name
+      value: iPadUILauncher
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720189052806218143, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -578.7187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6561124861600557469, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: layout.Size.X.Raw
+      value: 462.14172
+      objectReference: {fileID: 0}
+    - target: {fileID: 8468008061109768567, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.8946877
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569510993974684996, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+      propertyPath: layout.Size.X.Raw
+      value: 199.78336
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+--- !u!114 &7341753642355719477 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5720189052402300528, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+  m_PrefabInstance: {fileID: 3062755236164569925}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bed4401130c3b04193ec5a2e02ee773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &7341753642355719478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5720189052402300531, guid: bdcf5b9019a812447abc66cf9c30b9fc, type: 3}
+  m_PrefabInstance: {fileID: 3062755236164569925}
+  m_PrefabAsset: {fileID: 0}

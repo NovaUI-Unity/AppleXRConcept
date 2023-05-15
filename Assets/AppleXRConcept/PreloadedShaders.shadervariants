@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PreloadedShaders
+  m_Shaders:
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_UI_ALPHACLIP
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 110, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 4
+      - keywords: SPOT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+  - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_NONE
+        passType: 0
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 16001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: ADJUST_TO_LINEARSPACE
+        passType: 0
+  - first: {fileID: 4800000, guid: c58524c3a316e934785991194afca6fc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 364010350a0ba5b4b9618a8e56140a18, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fd63b4abec58bee4abf1566ee40f214a, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 5
+  - first: {fileID: 4800000, guid: 641b5f84a88766f42bcb8d9d22fb5bde, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1de5c33dc542fd647a06a4f5abe452de, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a6409aa60c7400649ae02d9cfe113f84, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: NOVA_CENTER_BORDER NOVA_CLIP_RECT
+        passType: 0
+      - keywords: NOVA_CLIP_RECT
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_DYNAMIC_IMAGE
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_INNER_BORDER
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_INNER_BORDER NOVA_RADIAL_FILL
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_RADIAL_FILL
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_STATIC_IMAGE
+        passType: 0
+      - keywords: NOVA_DYNAMIC_IMAGE
+        passType: 0
+      - keywords: NOVA_DYNAMIC_IMAGE NOVA_INNER_BORDER
+        passType: 0
+      - keywords: NOVA_DYNAMIC_IMAGE NOVA_INNER_SHADOW
+        passType: 0
+      - keywords: NOVA_INNER_BORDER
+        passType: 0
+      - keywords: NOVA_INNER_BORDER NOVA_INNER_SHADOW
+        passType: 0
+      - keywords: NOVA_INNER_BORDER NOVA_RADIAL_FILL
+        passType: 0
+      - keywords: NOVA_RADIAL_FILL
+        passType: 0
+      - keywords: NOVA_STATIC_IMAGE
+        passType: 0
+  - first: {fileID: 4800000, guid: 7ea2eb9e383713b49aca9259d4e9dff4, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 4dbb183815703b249986b022b7441974, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 460842311d918754a9ae81ace8c5cb24, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: NOVA_CLIP_RECT
+        passType: 8
+      - keywords: NOVA_CLIP_RECT SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 60db2bf46d1a1674a92a38994311f109, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: NOVA_CLIP_RECT
+        passType: 0
+  - first: {fileID: 4800000, guid: d547bcfb38bd159439a11c72e4fa2b30, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: NOVA_CLIP_RECT
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_SUPER_SAMPLE
+        passType: 0
+      - keywords: NOVA_CLIP_RECT UNDERLAY_ON
+        passType: 0
+      - keywords: NOVA_SUPER_SAMPLE
+        passType: 0
+  - first: {fileID: 4800000, guid: d4ed221c6af29ae45a65c8893a56b2ae, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: 
+        passType: 8
