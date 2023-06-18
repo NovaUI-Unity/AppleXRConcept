@@ -23,7 +23,7 @@ MonoBehaviour:
   trackedKeyboardSupport: 0
   bodyTrackingSupport: 0
   faceTrackingSupport: 0
-  eyeTrackingSupport: 0
+  eyeTrackingSupport: 2
   virtualKeyboardSupport: 0
   disableBackups: 1
   enableNSCConfig: 1

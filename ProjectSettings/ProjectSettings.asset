@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: AppleXRConcept
+  companyName: Nova
+  productName: VisionOSDemo
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -154,6 +154,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 374f94ac7b80acd43909a0f019c45287, type: 2}
+  - {fileID: 11400000, guid: dd59aa2786af32d48aecdebba554ecd8, type: 2}
+  - {fileID: 0}
+  - {fileID: -5943382702743437475, guid: 53006847ff8ea2747b12e6c0d4e98ed6, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -173,7 +178,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.AppleXRConcept
+    Android: com.Nova.VisionOSDemo
     Standalone: com.DefaultCompany.AppleXRConcept
   buildNumber:
     Standalone: 0

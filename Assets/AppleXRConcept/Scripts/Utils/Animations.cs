@@ -44,6 +44,30 @@ namespace NovaSamples.AppleXRConcept
     }
 
     /// <summary>
+    /// Animates a <see cref="UIBlock2D"/>'s border color from its current value to <see cref="TargetColor"/>.
+    /// </summary>
+    [Serializable]
+    public struct BorderColorAnimation : IAnimation
+    {
+        [Tooltip("The end border color of the animation.")]
+        public Color TargetColor;
+        [Tooltip("The UIBlock whose border color will be animated.")]
+        public UIBlock2D Target;
+
+        private Color startColor;
+
+        public void Update(float percentDone)
+        {
+            if (percentDone == 0f)
+            {
+                startColor = Target.Border.Color;
+            }
+
+            Target.Border.Color = Color.Lerp(startColor, TargetColor, percentDone);
+        }
+    }
+
+    /// <summary>
     /// Animates the <see cref="ClipMask.Tint"/> of a <see cref="ClipMask"/>.
     /// </summary>
     [Serializable]
